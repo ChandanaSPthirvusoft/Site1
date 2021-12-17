@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestAttendance_doc(unittest.TestCase):
+class TestTSAttendanceDoc(unittest.TestCase):
 	pass

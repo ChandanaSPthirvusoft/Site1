@@ -1,7 +1,7 @@
 // Copyright (c) 2021, pub and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Attendance_doc', {
+frappe.ui.form.on('TS Attendance Doc', {
 	// refresh: function(frm) {
 
 	// }

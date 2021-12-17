@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Attendance_doc(Document):
+class TSAttendanceDoc(Document):
 	pass
