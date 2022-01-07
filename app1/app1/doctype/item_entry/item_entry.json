@@ -1,58 +1,68 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "cha.##",
- "creation": "2021-12-16 10:25:16.286480",
+ "autoname": "ITEM.####",
+ "creation": "2021-12-31 08:47:23.277875",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1",
-  "id",
   "date",
-  "intime",
-  "outtime"
+  "day",
+  "name1",
+  "address",
+  "phone_number",
+  "item_details"
  ],
  "fields": [
-  {
-   "fieldname": "name1",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "NAME",
-   "reqd": 1
-  },
-  {
-   "fieldname": "id",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "ID",
-   "reqd": 1
-  },
   {
    "fieldname": "date",
    "fieldtype": "Date",
    "in_list_view": 1,
-   "label": "DATE",
+   "label": "Date",
    "reqd": 1
   },
   {
-   "fieldname": "intime",
-   "fieldtype": "Time",
+   "fieldname": "day",
+   "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "INTIME"
+   "label": "Day",
+   "reqd": 1
   },
   {
-   "fieldname": "outtime",
-   "fieldtype": "Time",
-   "label": "OUTTIME"
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "item_details",
+   "fieldtype": "Table",
+   "label": "Item Details",
+   "options": "item_details",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-12-29 15:51:28.176411",
+ "modified": "2021-12-31 09:41:54.985324",
  "modified_by": "Administrator",
  "module": "App1",
- "name": "TS Attendance Doc",
+ "name": "Item Entry",
  "owner": "Administrator",
  "permissions": [
   {
